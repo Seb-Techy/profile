@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: 'Zen Old Mincho', sans-serif;
+  font-weight: 900; /* if you want the light version */
+  background-image: url("images/multiplecat.jpeg");
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: bold;
+  color : rgb(87, 95, 125);
+  display: block;
+  margin: 8px;
+}
+
+p {
+  color: rgb(87, 95, 125);
+}
+
+a{
+  color : grey;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color : white;
+  /* background-color : black; */
+}
+
+h2 {
+  color: black;
+  width: 19%;
+  font-size: 20px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 12px 13px 30px rgb(32 0 0 / 17%);
+  margin: auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 36px 66px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+i {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+i:hover{
+  color: blueviolet;
+}
+
+.btn-grey {
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    opacity: 0.6;
+    transition-duration: 500ms;
+}
+.btn-grey:hover {
+  background-color: black;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);
+  opacity: 1;
+}
+.list-inline {
+    text-decoration: none;
+    display: table-cell;
+    padding: 20px;
+    list-style: none;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
